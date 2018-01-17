@@ -1,0 +1,4 @@
+AuthType Basic  
+AuthName "restricted area"  
+AuthUserFile /home/spitsisf/public_html/target/resources/files/.htpasswd
+require valid-user

@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+.content {
+	width:915px;
+	font-size:1.2em;
+	margin:0 auto;
+	padding:100px 0;
+	color:#525252;
+}
+.content h2 {
+	color:#2F2F2F;
+}
+.center {
+	text-align:center;
+}
+.clear {
+	clear:both;
+}
+button {
+	font-size:1.0em;
+	width:50%;
+	height:auto;
+	padding:10px 10px;
+	border-radius:10px;
+	border:none;
+	box-shadow:none;
+	background-color:#044237;
+	box-shadow:1px 5px 30px #000;
+	color:#FFF;
+}
+button:hover {
+	background-color:#279494;
+}
+.publicResources {
+	width:100%;
+	padding:30px 0;
+}
+
+.webAndBooks {
+	float:left;
+	padding:0;
+	color:#A3A2A2;
+	width:49%;
+}
+.webAndBooks a {
+	color:#525252;	
+}
+.webAndBooks a:hover {
+	color:#C3C2C2;
+}
+.webAndBooks h4 {
+	color:#3E3E3E;
+}
+.webAndBooks span {
+	color:#525252;
+}
+@media screen and (max-width: 940px) {
+	.content {
+		width:90%;
+	}
+}
+@media screen and (max-width: 740px) {
+	.webAndBooks {
+		width:100%;
+	}
+}
